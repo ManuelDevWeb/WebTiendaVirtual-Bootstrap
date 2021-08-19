@@ -1,0 +1,12 @@
+/*
+    Creación de una página web para tienda virtual responsive con el uso de la tecnología Bootstrap.
+*/
+
+1. Crear la estructura base del index.html (Si tenemos la extension bootstrap 4, escribir b4 
+   + enter en el index).
+
+2. Crear la carpeta de imagenes que contendra los archivos necesarios.
+
+3. Crear la carpeta css para ir agregando los estilos de nuestra página.
+
+4. Importar las librerias, archivos y scripts necesarios dentro del index.html
