@@ -10,3 +10,29 @@
 3. Crear la carpeta css para ir agregando los estilos de nuestra página.
 
 4. Importar las librerias, archivos y scripts necesarios dentro del index.html
+
+5. Crear el Header
+
+6. Crear el Menu Principal
+
+7. Estilos al Header
+
+8. Crear la Imagen Principal
+
+9. Crear la sección de Categorias
+
+10. Estilos a las Categorias
+
+11. Crear la sección Sobre Nosotros
+
+12. Estilos a Sobre Nosotros
+
+13. Crear la sección de Productos
+
+14. Estilos a los Productos
+
+15. Crear el Footer
+
+16. Estilos al Footer
+
+17. Subir al repositorio

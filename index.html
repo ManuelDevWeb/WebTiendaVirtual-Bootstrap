@@ -14,6 +14,192 @@
 </head>
 
 <body>
+    <!--Header-->
+    <header class="header pt-4">
+        <h1 class="titulo text-center my-4">Tienda<span>Muebles</span></h1>
+
+        <!--Navegacion-->
+        <nav class="navbar navbar-expand-sm navbar-light justify-content-center">
+
+            <!--Boton menu hamburguera-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-principal" aria-expanded="false" aria-label="Navegación Principal">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Links de la navegación-->
+            <div id="nav-principal" class="collapse navbar-collapse mt-3 mt-sm-0">
+                <nav class="navegacion-principal nav justify-content-between container flex-column flex-sm-row align-items-center">
+                    <a href="#" class="nav-link">Inicio</a>
+                    <a href="#" class="nav-link">Nosotros</a>
+                    <a href="#" class="nav-link">Tienda</a>
+                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link">Galeria</a>
+                    <a href="#" class="nav-link">Contacto</a>
+                </nav>
+            </div>
+        </nav>
+    </header>
+
+    <!--Imagen Principal-->
+    <div class="imagen-principal imagen-bg container-fluid"></div>
+
+    <!--Sección de Categorías-->
+    <div class="categorias container mt-4">
+        <h2 class="text-center titulo">Categorías</h2>
+        <!--Fila de las categorías-->
+        <div class="row mt-4 justify-content-center">
+            <div class="col-8 col-md-4 mb-4">
+                <img src="img/categoria1.jpg" class="img-fluid" alt="Categoria 1">
+                <a href="#" class="text-center mt-4 d-block">
+                  Escritorios
+                </a>
+            </div>
+            <div class="col-8 col-md-4 mb-4">
+                <img src="img/categoria2.jpg" class="img-fluid" alt="Categoria 2">
+                <a href="#" class="text-center mt-4 d-block">
+                  Hogar
+                </a>
+            </div>
+            <div class="col-8 col-md-4 mb-4">
+                <img src="img/categoria3.jpg" class="img-fluid" alt="Categoria 3">
+                <a href="#" class="text-center mt-4 d-block">
+                  Cocina
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--Sección Sobre Nosotros-->
+    <div class="sobre-nosotros mt-5 container-fluid bg-primary">
+        <!--Fila de las imagenes-->
+        <div class="row align-items-center text-justify">
+            <div class="imagen-nosotros col-md-6 imagen-bg"></div>
+            <div class="texto-nosotros col-md-6 text-light">
+                <div class="contenido py-5 py-md-0">
+                    <h2 class="mb-4 titulo display-4 text-center text-md-left">Sobre Nosotros</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis molestiae magni saepe voluptatibus incidunt excepturi dolorem! Delectus unde distinctio facere porro, nesciunt perferendis magni. Corporis ipsum ducimus officiis
+                        dolorum illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores minima aperiam, ad delectus omnis debitis modi fuga qui rerum voluptates, minus ipsum officia inventore totam! Tempora nostrum provident suscipit dicta!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptate magnam adipisci iste rerum! Sit voluptatem alias cupiditate? Doloribus nam laboriosam et soluta vero, odio ex nihil quidem magni iusto.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Sección de Nuestros Productos-->
+    <div class="productos container mt-4">
+        <h2 class="text-center titulo">Nuestros Productos</h2>
+
+        <!--Fila de los producto (Todo el tamaño)-->
+        <div class="row no-gutters mt-4 bg-primary align-items-center">
+            <div class="col-lg-8">
+                <img src="img/producto1.jpg" class="img-fluid" alt="Producto 1">
+            </div>
+            <div class="col lg-4">
+                <div class="info-producto text-light text-center p-4">
+                    <h3 class="text-center mb-3">Producto 1</h3>
+                    <p>Lorem ipsum, dolor sit amet consecteturci saepe,voluptatum accusamus ullam optio aspernatur necessitatibus quisquam</p>
+                    <p class="precio font-weight-bold">$1,000,000</p>
+                    <a href="#" class="btn btn-success d-block btn-lg text-uppercase font-weight-bold">Agregar Carrito</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Fila de los productos (Divide en dos)-->
+        <div class="row mt-4">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <img src="img/producto2.jpg" class="img-fluid" alt="Producto 2">
+                <div class="info-producto text-light text-center p-4 bg-primary">
+                    <h3 class="text-center mb-3">Producto 2</h3>
+                    <p>Lorem ipsum, dolor sit amet consecteturci saepe,voluptatum accusamus ullam optio aspernatur necessitatibus quisquam</p>
+                    <p class="precio font-weight-bold">$1,000,000</p>
+                    <a href="#" class="btn btn-success d-block btn-lg text-uppercase font-weight-bold">Agregar Carrito</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4 mb-md-0">
+                <img src="img/producto3.jpg" class="img-fluid" alt="Producto 3">
+                <div class="info-producto text-light text-center p-4 bg-primary">
+                    <h3 class="text-center mb-3">Producto 3</h3>
+                    <p>Lorem ipsum, dolor sit amet consecteturci saepe,voluptatum accusamus ullam optio aspernatur necessitatibus quisquam</p>
+                    <p class="precio font-weight-bold">$1,000,000</p>
+                    <a href="#" class="btn btn-success d-block btn-lg text-uppercase font-weight-bold">Agregar Carrito</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Fila de los productos (Divide en tres)-->
+        <div class="row mt-4 justify-content-center">
+            <div class="col-md-6 col-lg-4 mb-4 ">
+                <img src="img/producto4.jpg" class="img-fluid" alt="Producto 4">
+                <div class="info-producto text-light text-center p-4 bg-primary">
+                    <h3 class="text-center mb-3">Producto 4</h3>
+                    <p>Lorem ipsum, dolor sit amet consecteturci saepe,voluptatum accusamus ullam optio aspernatur necessitatibus quisquam</p>
+                    <p class="precio font-weight-bold">$1,000,000</p>
+                    <a href="#" class="btn btn-success d-block btn-lg text-uppercase font-weight-bold">Agregar Carrito</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4 ">
+                <img src="img/producto5.jpg" class="img-fluid" alt="Producto 5">
+                <div class="info-producto text-light text-center p-4 bg-primary">
+                    <h3 class="text-center mb-3">Producto 5</h3>
+                    <p>Lorem ipsum, dolor sit amet consecteturci saepe,voluptatum accusamus ullam optio aspernatur necessitatibus quisquam</p>
+                    <p class="precio font-weight-bold">$1,000,000</p>
+                    <a href="#" class="btn btn-success d-block btn-lg text-uppercase font-weight-bold">Agregar Carrito</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+                <img src="img/producto6.jpg" class="img-fluid" alt="Producto 6">
+                <div class="info-producto text-light text-center p-4 bg-primary">
+                    <h3 class="text-center mb-3">Producto 6</h3>
+                    <p>Lorem ipsum, dolor sit amet consecteturci saepe,voluptatum accusamus ullam optio aspernatur necessitatibus quisquam</p>
+                    <p class="precio font-weight-bold">$1,000,000</p>
+                    <a href="#" class="btn btn-success d-block btn-lg text-uppercase font-weight-bold">Agregar Carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer container mt-4">
+        <div class="mt-4 py-4">
+            <!--Fila de las secciones del Footer-->
+            <div class="row text-center text-md-left">
+                <div class="col-md-4 mt-4 mt-md-0">
+                    <h3 class="titulo">Categorías</h3>
+                    <nav class="footer-menu">
+                        <a href="#" class="nav-link">Carreras</a>
+                        <a href="#" class="nav-link">Prensa y Noticieros</a>
+                        <a href="#" class="nav-link">Asociaciones</a>
+                        <a href="#" class="nav-link">Política de Privacidad</a>
+                        <a href="#" class="nav-link">Términos de Servicio</a>
+                    </nav>
+                </div>
+
+                <div class="col-md-4 mt-4 mt-md-0">
+                    <h3 class="titulo">Categorías</h3>
+                    <nav class="footer-menu">
+                        <a href="#" class="nav-link">Nosotros</a>
+                        <a href="#" class="nav-link">Prensa y Noticieros</a>
+                        <a href="#" class="nav-link">Asociaciones</a>
+                        <a href="#" class="nav-link">Política de Privacidad</a>
+                        <a href="#" class="nav-link">Términos de Servicio</a>
+                    </nav>
+                </div>
+
+                <div class="col-md-4 mt-4 mt-md-0">
+                    <h3 class="titulo">Categorías</h3>
+                    <nav class="footer-menu">
+                        <a href="#" class="nav-link">Preguntas Frecuentes</a>
+                        <a href="#" class="nav-link">Ayuda en Línea</a>
+                        <a href="#" class="nav-link">Confianza y Seguridad</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <!--Importando todos los scripts necesarios para trabajar con Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
